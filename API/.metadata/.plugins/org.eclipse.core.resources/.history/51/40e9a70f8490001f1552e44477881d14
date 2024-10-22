@@ -1,0 +1,18 @@
+package br.com.erp_api.controller.dto;
+
+import br.com.erp_api.model.user.User;
+import lombok.Getter;
+
+@Getter
+public class UserDto {
+	
+	private Long id;
+	private String email;
+	private String senha;
+
+	public UserDto(User user) {
+		this.id = id;
+		this.email = email;
+	}	
+	
+}

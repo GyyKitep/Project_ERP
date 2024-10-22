@@ -1,0 +1,9 @@
+package br.com.erp_api.controller.dto;
+
+public class UserDto {
+
+	private Long id;
+	private String email;
+	private String senha;	
+	
+}

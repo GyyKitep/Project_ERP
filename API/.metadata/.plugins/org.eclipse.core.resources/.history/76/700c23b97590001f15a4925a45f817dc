@@ -1,0 +1,5 @@
+package br.com.erp_api.controller;
+
+public class UserController {
+
+}
